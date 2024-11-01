@@ -1,0 +1,376 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Math Captcha\n"
+"POT-Creation-Date: 2024-04-19 18:54+0200\n"
+"PO-Revision-Date: 2015-01-25 22:44+0100\n"
+"Last-Translator: Bartosz Arendt <info@dfactory.eu>\n"
+"Language-Team: dFactory <info@dfactory.eu>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-KeywordsList: gettext;gettext_noop;__;_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/class-core.php:43 ../includes/class-core.php:44
+#: ../includes/class-core.php:45
+msgid "Error"
+msgstr ""
+
+#: ../includes/class-core.php:43
+#: ../includes/integrations/contact-form-7.php:161
+msgid "Please enter captcha value."
+msgstr ""
+
+#: ../includes/class-core.php:44
+#: ../includes/integrations/contact-form-7.php:157
+msgid "Invalid captcha value."
+msgstr ""
+
+#: ../includes/class-core.php:45
+#: ../includes/integrations/contact-form-7.php:165
+msgid "Captcha time expired."
+msgstr ""
+
+#: ../includes/class-core.php:378
+msgid "one"
+msgstr ""
+
+#: ../includes/class-core.php:379
+msgid "two"
+msgstr ""
+
+#: ../includes/class-core.php:380
+msgid "three"
+msgstr ""
+
+#: ../includes/class-core.php:381
+msgid "four"
+msgstr ""
+
+#: ../includes/class-core.php:382
+msgid "five"
+msgstr ""
+
+#: ../includes/class-core.php:383
+msgid "six"
+msgstr ""
+
+#: ../includes/class-core.php:384
+msgid "seven"
+msgstr ""
+
+#: ../includes/class-core.php:385
+msgid "eight"
+msgstr ""
+
+#: ../includes/class-core.php:386
+msgid "nine"
+msgstr ""
+
+#: ../includes/class-core.php:387
+msgid "ten"
+msgstr ""
+
+#: ../includes/class-core.php:388
+msgid "eleven"
+msgstr ""
+
+#: ../includes/class-core.php:389
+msgid "twelve"
+msgstr ""
+
+#: ../includes/class-core.php:390
+msgid "thirteen"
+msgstr ""
+
+#: ../includes/class-core.php:391
+msgid "fourteen"
+msgstr ""
+
+#: ../includes/class-core.php:392
+msgid "fifteen"
+msgstr ""
+
+#: ../includes/class-core.php:393
+msgid "sixteen"
+msgstr ""
+
+#: ../includes/class-core.php:394
+msgid "seventeen"
+msgstr ""
+
+#: ../includes/class-core.php:395
+msgid "eighteen"
+msgstr ""
+
+#: ../includes/class-core.php:396
+msgid "nineteen"
+msgstr ""
+
+#: ../includes/class-core.php:397
+msgid "twenty"
+msgstr ""
+
+#: ../includes/class-core.php:398
+msgid "thirty"
+msgstr ""
+
+#: ../includes/class-core.php:399
+msgid "forty"
+msgstr ""
+
+#: ../includes/class-core.php:400
+msgid "fifty"
+msgstr ""
+
+#: ../includes/class-core.php:401
+msgid "sixty"
+msgstr ""
+
+#: ../includes/class-core.php:402
+msgid "seventy"
+msgstr ""
+
+#: ../includes/class-core.php:403
+msgid "eighty"
+msgstr ""
+
+#: ../includes/class-core.php:404
+msgid "ninety"
+msgstr ""
+
+#: ../includes/class-settings.php:39
+msgid "login form"
+msgstr ""
+
+#: ../includes/class-settings.php:40
+msgid "registration form"
+msgstr ""
+
+#: ../includes/class-settings.php:41
+msgid "reset password form"
+msgstr ""
+
+#: ../includes/class-settings.php:42
+msgid "comment form"
+msgstr ""
+
+#: ../includes/class-settings.php:43
+msgid "bbpress"
+msgstr ""
+
+#: ../includes/class-settings.php:44
+msgid "contact form 7"
+msgstr ""
+
+#: ../includes/class-settings.php:48
+msgid "addition (+)"
+msgstr ""
+
+#: ../includes/class-settings.php:49
+msgid "subtraction (-)"
+msgstr ""
+
+#: ../includes/class-settings.php:50
+msgid "multiplication (&#215;)"
+msgstr ""
+
+#: ../includes/class-settings.php:51
+msgid "division (&#247;)"
+msgstr ""
+
+#: ../includes/class-settings.php:55
+msgid "numbers"
+msgstr ""
+
+#: ../includes/class-settings.php:56
+msgid "words"
+msgstr ""
+
+#: ../includes/class-settings.php:66 ../includes/class-settings.php:77
+#: ../includes/class-settings.php:82
+#: ../includes/integrations/contact-form-7.php:177
+msgid "Math Captcha"
+msgstr ""
+
+#: ../includes/class-settings.php:84
+msgid "Need support?"
+msgstr ""
+
+#: ../includes/class-settings.php:85
+#, php-format
+msgid ""
+"If you are having problems with this plugin, please talk about them in the "
+"<a href=\"%s\" target=\"_blank\">Support forum</a>."
+msgstr ""
+
+#: ../includes/class-settings.php:87
+msgid "Do you like this plugin?"
+msgstr ""
+
+#: ../includes/class-settings.php:88
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">Rate it 5</a> on WordPress.org."
+msgstr ""
+
+#: ../includes/class-settings.php:89
+#, php-format
+msgid ""
+"Blog about it & link to the <a href=\"%s\" target=\"_blank\">plugin page</"
+"a>."
+msgstr ""
+
+#: ../includes/class-settings.php:90
+#, php-format
+msgid ""
+"Check out our other <a href=\"%s\" target=\"_blank\">WordPress plugins</a>."
+msgstr ""
+
+#: ../includes/class-settings.php:93
+msgid "Created by"
+msgstr ""
+
+#: ../includes/class-settings.php:110
+msgid "Reset to defaults"
+msgstr ""
+
+#: ../includes/class-settings.php:128
+msgid "General Settings"
+msgstr ""
+
+#: ../includes/class-settings.php:129
+msgid "Enable Math Captcha for"
+msgstr ""
+
+#: ../includes/class-settings.php:130
+msgid "Hide for logged in users"
+msgstr ""
+
+#: ../includes/class-settings.php:131
+msgid "Mathematical operations"
+msgstr ""
+
+#: ../includes/class-settings.php:132
+msgid "Display captcha as"
+msgstr ""
+
+#: ../includes/class-settings.php:133
+msgid "Captcha field title"
+msgstr ""
+
+#: ../includes/class-settings.php:134
+msgid "Captcha time"
+msgstr ""
+
+#: ../includes/class-settings.php:135
+msgid "Allow Reloading"
+msgstr ""
+
+#: ../includes/class-settings.php:136
+msgid "Block Direct Comments"
+msgstr ""
+
+#: ../includes/class-settings.php:137
+msgid "Deactivation"
+msgstr ""
+
+#: ../includes/class-settings.php:158
+msgid "Select where you'd like to use Math Captcha."
+msgstr ""
+
+#: ../includes/class-settings.php:172
+msgid "Enable to hide captcha for logged in users."
+msgstr ""
+
+#: ../includes/class-settings.php:173
+msgid "Would you like to hide captcha for logged in users?"
+msgstr ""
+
+#: ../includes/class-settings.php:194
+msgid "Select which mathematical operations to use in your captcha."
+msgstr ""
+
+#: ../includes/class-settings.php:215
+msgid "Select how you'd like to display your captcha."
+msgstr ""
+
+#: ../includes/class-settings.php:230
+msgid "How to entitle field with captcha?"
+msgstr ""
+
+#: ../includes/class-settings.php:245
+msgid "Enter the time (in seconds) a user has to enter captcha value."
+msgstr ""
+
+#: ../includes/class-settings.php:259
+msgid "Allow the visitor to reload captcha phrase."
+msgstr ""
+
+#: ../includes/class-settings.php:273
+msgid "Block direct access to wp-comments-post.php."
+msgstr ""
+
+#: ../includes/class-settings.php:274
+msgid "Enable this to prevent spambots from posting to Wordpress via a URL."
+msgstr ""
+
+#: ../includes/class-settings.php:288
+msgid "Delete settings on plugin deactivation."
+msgstr ""
+
+#: ../includes/class-settings.php:290
+msgid "Enable if you want all plugin data to be deleted on deactivation."
+msgstr ""
+
+#: ../includes/class-settings.php:333
+msgid ""
+"You need to check at least one mathematical operation. Default settings "
+"restored."
+msgstr ""
+
+#: ../includes/class-settings.php:349
+msgid ""
+"You need to check at least one display group. Default settings restored."
+msgstr ""
+
+#: ../includes/class-settings.php:390
+msgid "Settings restored to defaults."
+msgstr ""
+
+#: ../includes/integrations/contact-form-7.php:192
+#: ../includes/integrations/contact-form-7.php:195
+msgid "Field type"
+msgstr ""
+
+#: ../includes/integrations/contact-form-7.php:196
+msgid "Required field"
+msgstr ""
+
+#: ../includes/integrations/contact-form-7.php:202
+msgid "Name"
+msgstr ""
+
+#: ../includes/integrations/contact-form-7.php:210
+msgid "Id attribute"
+msgstr ""
+
+#: ../includes/integrations/contact-form-7.php:218
+msgid "Class attribute"
+msgstr ""
+
+#: ../wp-math-captcha.php:282
+msgid "Are you sure you want to reset these settings to defaults?"
+msgstr ""
+
+#: ../wp-math-captcha.php:311
+msgid "Support"
+msgstr ""
+
+#: ../wp-math-captcha.php:326
+msgid "Settings"
+msgstr ""

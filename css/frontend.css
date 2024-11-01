@@ -1,0 +1,258 @@
+.mcaptcha {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    display: block;
+    margin: 0.5rem 0 1rem 0;
+    height: min-content;
+    box-sizing: border-box;
+    font-size: 0.875rem !important;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 1rem !important;
+    cursor: default;
+}
+
+.mcaptcha * {
+    box-sizing: border-box;
+}
+
+.mcaptcha-container {
+    display: inline-block;
+    position: relative;
+    min-width: 50%;
+    min-width: 270px;
+    max-width: 100%;
+    padding: 2rem 1rem 1rem;
+    margin: 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.03);
+}
+
+.mcaptcha-title {
+    color: #20c19e;
+    font-size: 0.675rem;
+    line-height: 0.675rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+}
+
+.mcaptcha-phrase {
+    display: flex;
+    align-items: center;
+    min-height: 2rem;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.mcaptcha.loading .mcaptcha-phrase {
+    opacity: 0;
+}
+
+.mcaptcha-part {
+    display: flex;
+    align-items: center;
+    flex-basis: content;
+    min-height: 2rem;
+}
+
+.mcaptcha-input,
+.mcaptcha-input:focus,
+.mcaptcha-input:active {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    display: inline-block;
+    width: 2.5rem !important;
+    height: 2rem !important;
+    min-width: inherit;
+    min-height: 2rem !important;
+    margin: 0 1px !important;
+    padding: 0.5rem !important;
+    vertical-align: middle;
+    font-size: 0.875rem !important;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1rem !important;
+    border: none !important;
+    border-radius: 3px !important;
+    z-index: 1;
+    outline: none;
+}
+
+.mcaptcha-sign {
+    padding: 0 0.2rem;
+}
+
+.mcaptcha-number {
+    display: flex;
+    align-items: center;
+}
+
+.mcaptcha-repeat {
+    position: absolute;
+    top: 0.35rem;
+    right: 0.6rem;
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+    height: 1rem;
+    padding: .125rem;
+    width: 1rem;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.mcaptcha-repeat::after,
+.mcaptcha-repeat::before {
+    content: '';
+    display: block;
+}
+
+.mcaptcha-repeat::before {
+    border-color: transparent #20c19e #20c19e #20c19e;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: .125em;
+    height: .75em;
+    width: .75em;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.mcaptcha-repeat::after {
+    border-color: transparent transparent transparent #20c19e;
+    border-style: solid;
+    border-width: .2rem 0 .2rem .25rem;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+}
+
+.mcaptcha.loading .mcaptcha-repeat {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+.mcaptcha-loader {
+    position: absolute;
+    top: calc(50% + 0.5rem);
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 22px;
+    height: 22px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    z-index: 0;
+
+    &:before,
+        &:after {
+        content: "";
+        position: absolute;
+        background-color: #20c19e;
+        transition: transform 0.25s ease-out;
+        animation-timing-function: linear;
+    }
+
+    /* Vertical line */
+    &:before {
+        top: 0;
+        left: 50%;
+        width: 2px;
+        height: 100%;
+        margin-left: -1px;
+        animation: plus normal 2s infinite;
+    }
+
+    /* horizontal line */
+    &:after {
+        top: 50%;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        margin-top: -1px;
+        animation: minus normal 2s infinite;
+    }
+}
+
+.mcaptcha.loading .mcaptcha-loader {
+    opacity: 1;
+}
+
+.mcaptcha.theme-light .mcaptcha-container {
+    border: 1px solid #f0f0f0;
+    background: #fff;
+    color: #333;
+}
+
+.mcaptcha.theme-light .mcaptcha-input,
+.mcaptcha.theme-light .mcaptcha-input:focus,
+.mcaptcha.theme-light .mcaptcha-input:active {
+    background: #fff !important;
+    color: #333 !important;
+}
+
+.mcaptcha.theme-light .mcaptcha-input {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5) !important;
+}
+
+.mcaptcha.theme-light .mcaptcha-input:focus,
+.mcaptcha.theme-light .mcaptcha-input:hover {
+    box-shadow: 0 0 0 1px rgba(32, 193, 158, 0.8) !important;
+}
+
+.mcaptcha.theme-dark .mcaptcha-container {
+    border: 1px solid rgb(33, 37, 41);
+    background: rgb(33, 37, 41);
+    color: #ccc;
+}
+
+.mcaptcha.theme-dark .mcaptcha-input,
+.mcaptcha.theme-dark .mcaptcha-input:focus,
+.mcaptcha.theme-dark .mcaptcha-input:active {
+    background: rgb(33, 37, 41) !important;
+    color: #ccc !important;
+}
+
+.mcaptcha.theme-dark .mcaptcha-input {
+    box-shadow: 0 0 0 1px #ccc !important;
+}
+
+.mcaptcha.theme-dark .mcaptcha-input:focus,
+.mcaptcha.theme-dark .mcaptcha-input:hover {
+    box-shadow: 0 0 0 1px rgba(32, 193, 158, 0.8) !important;
+}
+
+@keyframes plus {
+    0% {
+        transform: rotate(90deg);
+    }
+    25% {
+        transform: rotate(180deg);
+    }
+    50% {
+        transform: rotate(270deg);
+    }
+    75% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(90deg);
+    }
+}
+
+@keyframes minus {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(180deg);
+    }
+    50% {
+        transform: rotate(360deg);
+    }
+    75% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
